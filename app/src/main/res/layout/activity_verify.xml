@@ -6,7 +6,6 @@ xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:background="#F9FAFF"
-tools:context=".Verify"
 android:orientation="vertical"
 android:weightSum="2">
 <LinearLayout
@@ -35,20 +34,7 @@ android:weightSum="2">
         android:textSize="20sp"
         android:fontFamily="@font/montserrat_bold"
         android:textColor="#444444"/>
-    <com.chaos.view.PinView
-        android:id="@+id/id_otp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:itemCount="6"
-        android:layout_margin="10dp"
-        android:itemBackground="#F4F6F9"
-        android:cursorVisible="true"
-        app:lineColor="#2196F3"
-        android:textColor="#1F1F1F"
-        android:inputType="number"
-        app:hideLineWhenFilled="true"
-        style="@style/PinWidget.PinView"
-        app:itemRadius="5dp"/>
+
     <Button
         android:id="@+id/verifyBtn"
         android:layout_width="match_parent"
