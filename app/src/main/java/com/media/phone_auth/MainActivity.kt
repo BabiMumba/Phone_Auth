@@ -1,4 +1,4 @@
-package `in`.codestormx.phoneauth
+package com.media.phone_auth
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
