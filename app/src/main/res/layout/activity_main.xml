@@ -54,7 +54,7 @@
                 android:background="@drawable/edittext_bg"
                 android:enabled="false"
                 android:paddingLeft="10dp"
-                android:text="+91"
+                android:text="+243"
                 android:textColor="#1F1F1F" />
 
             <EditText
